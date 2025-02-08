@@ -50,4 +50,41 @@ fun main() {
     println(check)
     println(!check)
 
+    //comparison operator
+    println("Comparison operators")
+    println(8>5)
+    println(8<5)
+    println(8<8)
+    println(8<=8)
+    println("Kotlin"!="Kotlin")
+    println("Kotlin"=="Kotlin")
+
+    //logical operators
+    /*
+    OR ||
+    true or true returns true
+    true or false returns true
+    false or true returns true
+    false or false returns false
+
+    AND &&
+    true and true returns true
+    true and false returns false
+    false and true returns false
+    false and false returns false
+
+
+     */
+    println("logical operators")
+    println(true || false)
+    println(true && false)
+    println((true||false)||(false || false) && ((true || false)&&(true ||false)))
+    var n6 = 20
+    var n7 = 30
+    var n8 = 40
+    println(((n6>n7)||(n8>n6))&&(n6+10==n7)&&((n7<n8)||(n8<n6)))
+//             ( false || true) && (true) && (true || false)
+//                  true        &&  true  &&      true
+//                           true
+
 }
