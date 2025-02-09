@@ -1,4 +1,4 @@
-//for loop can  be used to lopp through or iterate on any iterable
+//for loop can  be used to loop through or iterate on any iterable
 //iterables are like ranges, arrays, maps...
 
 fun main() {
@@ -38,6 +38,24 @@ fun main() {
         println(n1)
     }
 
+    //using for loop to iterate on array
+    println("printing array elements")
+    var friends = arrayOf("obb", "ktt", "lea", "mea")
+    for (d in friends){
+        println(d)
+    }
+    println("printing array indices/position")
+    for (d in friends.indices){
+        println(d)
+    }
+    println("printing array indices/position and the element at that position/index")
+    for (d in friends.indices){
+        println("$d. ${friends[d]}")
+    }
+    //even string is an array
+    println("string is also an array which can be iterated")
+    var message = "Malaysia"
+    for(alphabet in message) println(alphabet.uppercase())
 
 
 
