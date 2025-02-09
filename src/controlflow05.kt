@@ -68,6 +68,7 @@ fun main() {
             println("You are far from getting qualified. Work very hard.")
         }
     }else if(myscore >=40 && myscore<=100){
+
         println("You qualified")
         if(myscore>=40 && myscore<=60){
             println("You can do better")
